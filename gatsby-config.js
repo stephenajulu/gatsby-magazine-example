@@ -8,7 +8,7 @@ module.exports = {
       resolve: 'gatsby-source-livingdocs',
       options: {
         // The accessToken is accessed at buildtime and set in netlify in this case
-        accessToken: process.env.accessToken,
+        accessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY29wZSI6InB1YmxpYy1hcGk6cmVhZCBwdWJsaWMtYXBpOndyaXRlIHB1YmxpYy1hcGk6Y29uZmlnOnJlYWQgcHVibGljLWFwaTpjb25maWc6d3JpdGUiLCJuYW1lIjoiTGl2aW5nIERvY3MiLCJwcm9qZWN0SWQiOjk2NCwiY2hhbm5lbElkIjo5NDQsInR5cGUiOiJjbGllbnQiLCJqdGkiOiI4MmFiY2ZjZC0yZmJkLTQ5YjgtOTU1OC1mN2U4OGNjOWJiYTciLCJjb2RlIjoiODJhYmNmY2QtMmZiZC00OWI4LTk1NTgtZjdlODhjYzliYmE3IiwiaWF0IjoxNTk3NDk5NTY4fQ.RSNUSnz_SLS8R2tLYINEKIIfmuDe60T3ymLxnmIJbHU,
         design: {
           name: 'living-times',
           version: '1.0.0'
